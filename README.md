@@ -61,7 +61,7 @@ DB_HOST=127.0.0.1
 DB_PORT=3308
 DB_DATABASE=your_database_name
 DB_USERNAME=your_database_user
-DB_PASSWORD=your_database_password
+DB_PASSWORD=<your_database_password
 ```
 
 ---
@@ -515,14 +515,14 @@ LOG_LEVEL=debug
 ```env
 APP_ENV=local
 APP_DEBUG=true
-APP_URL=http://localhost:8000
+APP_URL=<app_url>
 
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
+DB_CONNECTION=<db_connection>
+DB_HOST=<db_host>
 DB_PORT=3308
-DB_DATABASE=my_app
-DB_USERNAME=root
-DB_PASSWORD=
+DB_DATABASE=<db_name>
+DB_USERNAME=<db_username>
+DB_PASSWORD=<db_password>
 
 MAIL_MAILER=log
 ```
@@ -531,20 +531,20 @@ MAIL_MAILER=log
 ```env
 APP_ENV=production
 APP_DEBUG=false
-APP_URL=https://myapp.com
+APP_URL=<app_url>
 
-DB_CONNECTION=mysql
-DB_HOST=production-db-host.com
+DB_CONNECTION=<db_connection>
+DB_HOST=<db_host>
 DB_PORT=3306
-DB_DATABASE=production_db
-DB_USERNAME=prod_user
-DB_PASSWORD=strong_secure_password
+DB_DATABASE=<db_name>
+DB_USERNAME=<db_username>
+DB_PASSWORD=<db_password>
 
-MAIL_MAILER=smtp
-MAIL_HOST=smtp.gmail.com
+MAIL_MAILER=<smtp>
+MAIL_HOST=<your-smtp-host>
 MAIL_PORT=587
-MAIL_USERNAME=your-email@gmail.com
-MAIL_PASSWORD=your-app-password
+MAIL_USERNAME=<your-smtp-username>
+MAIL_PASSWORD=<your-smtp-password>
 MAIL_ENCRYPTION=tls
 ```
 
