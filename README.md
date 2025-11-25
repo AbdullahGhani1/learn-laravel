@@ -538,15 +538,17 @@ DB_HOST=production-db-host.com
 DB_PORT=3306
 DB_DATABASE=production_db
 DB_USERNAME=prod_user
-DB_PASSWORD=strong_secure_password
+DB_PASSWORD=<your-secure-password>
 
 MAIL_MAILER=smtp
-MAIL_HOST=smtp.gmail.com
+MAIL_HOST=<your-smtp-host>
 MAIL_PORT=587
-MAIL_USERNAME=your-email@gmail.com
-MAIL_PASSWORD=your-app-password
+MAIL_USERNAME=<your-smtp-username>
+MAIL_PASSWORD=<your-smtp-password>
 MAIL_ENCRYPTION=tls
 ```
+
+> **Security Note**: Never commit actual credentials to your repository. The values above are placeholders only. For Gmail, use App Passwords instead of your actual Gmail password. Always store real credentials in your `.env` file which should never be committed to version control.
 
 ---
 
